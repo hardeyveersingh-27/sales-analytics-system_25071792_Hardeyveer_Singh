@@ -17,27 +17,22 @@ This project is built as part of an academic assignment and follows all specifie
 - Modular, maintainable folder structure
 
 ---
-
 ## Project Structure
-   sales-analytics-system/
-│
-├── main.py
-├── file_handler.py
-├── data_processor.py
-├── report_generator.py
-├── requirements.txt
-├── README.md
-│
-├── data/
-│ ├── sales_data.txt
-│ └── enriched_sales_data.txt
-│
-├── output/
-│ └── sales_report.txt
-│
-└── utils/
-├── init.py
-└── api_handler.py
+
+sales-analytics-system/
+└── bitsom_ba_25071792-sales-analytics-system-main/
+    ├── main.py
+    ├── report_generator.py
+    ├── requirements.txt
+    ├── README.md
+    ├── enriched_sales_data.txt
+    ├── data/
+    │   └── sales_data.txt
+    └── utils/
+        ├── file_handler.py
+        ├── data_processor.py
+        └── api_handler.py
+
 
 
 
